@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav a:hover{
+    background-color:rgb(66, 68, 69);
+    border-radius: 10%;
+}
+
+#home {
+    color: #f4f4f4;
+    height: 700px;
+}
+
+#home h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#home .btn {
+    margin: 1rem 0.5rem;
+    border-color: #f4f4f4;
+    background-color:transparent;
+    z-index: 1;
+    position:relative;
+    border-radius: 450%;
+    height: auto;
+}
+
+#home a:hover {
+    background-color:rgb(66, 68, 69);
+    z-index: 1;
+    position:relative;
+}
+
+h2 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+div .row {
+    display: grid;
+    place-items: center;
+}
+
+div .col-md-12{
+    padding: 50px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-radius: 3%;
+    width: 60%;
+    min-width: 600px;
+}
+
+div .col-md-12 p {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+#skills .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .col-md-3 {
+    margin: 1rem 0;
+}
+
+#skills .col-md-3 img {
+    width: 100px;
+    height: 100px;
+}
+
+#skills div p {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#experience, #projects, #skills, #contact {
+    margin: 50px;
+}
+
+#experience .timeline-item {
+    display: grid;
+    place-items: center;
+    background: #f4f4f4;
+    border-radius: 3%;
+}
+
+#experience .timeline-content {
+    padding: 50px;
+    margin: 20px;
+}
+
+#contact {
+    margin-bottom: 200px;
+}
+
+
+/*
+#experience .timeline-item::after {
+    content: "";
+    display: table;
+    clear: both;
+    #experience .timeline-content {
+    position: relative;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+}
+
+#experience .timeline-icon {
+    position: absolute;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-500%);
+}
+*/
+/*
+#experience .timeline-item:nth-child(odd) .timeline-content {
+    margin-left: 50px;
+    text-align: left;
+}
+
+#experience .timeline-item:nth-child(even) .timeline-content {
+    margin-right: 50px;
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    #experience .timeline {
+        flex-direction: column; 
+    }
+
+    #experience .timeline-item {
+        width: 100%; 
+        padding: 1rem;
+        background: #f4f4f4;
+        position: relative;
+        margin: 1rem 0;
+    }
+}
+*/
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container a {
+    margin: 1rem 0;
+    border-color: #f4f4f4;
+    background-color:#333;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.img-fluid {
+    height:400px;
+    padding-left: 20px;
+}
