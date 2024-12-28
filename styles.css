@@ -20,8 +20,9 @@ header {
     display: flex;
     justify-content: center;
 }
-.navbar-nav a:hover{
-    background-color:rgb(66, 68, 69);
+
+.navbar-nav a:hover {
+    background-color: rgb(66, 68, 69);
     border-radius: 10%;
 }
 
@@ -38,17 +39,17 @@ header {
 #home .btn {
     margin: 1rem 0.5rem;
     border-color: #f4f4f4;
-    background-color:transparent;
+    background-color: transparent;
     z-index: 1;
-    position:relative;
+    position: relative;
     border-radius: 450%;
     height: auto;
 }
 
 #home a:hover {
-    background-color:rgb(66, 68, 69);
+    background-color: rgb(66, 68, 69);
     z-index: 1;
-    position:relative;
+    position: relative;
 }
 
 h2 {
@@ -59,20 +60,6 @@ h2 {
 div .row {
     display: grid;
     place-items: center;
-}
-
-div .col-md-12{
-    padding: 50px;
-    margin: 20px;
-    background-color: #f4f4f4;
-    border-radius: 3%;
-    width: 60%;
-    min-width: 600px;
-}
-
-div .col-md-12 p {
-    text-align: justify;
-    padding-top: 10px;
 }
 
 #skills .row {
@@ -95,7 +82,11 @@ div .col-md-12 p {
     padding-left: 20px;
     padding-top: 10px;
 }
-#experience, #projects, #skills, #contact {
+
+#experience,
+#projects,
+#skills,
+#contact {
     margin: 50px;
 }
 
@@ -173,7 +164,7 @@ footer {
 .container a {
     margin: 1rem 0;
     border-color: #f4f4f4;
-    background-color:#333;
+    background-color: #333;
 }
 
 #particles-js {
@@ -182,9 +173,173 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
 
 .img-fluid {
-    height:400px;
+    height: 400px;
     padding-left: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.name-title {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #9f21f3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.project-card {
+    width: 60%;
+    min-width: 600px;
+    text-align: justify;
+    padding-top: 10px;
+    background: #f4f4f4;
+    border-radius: 3%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+}
+
+.key-features {
+    margin-bottom: 1.5rem;
+}
+
+.key-features h4 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.key-features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.key-features li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.key-features li::before {
+    content: "•";
+    color: #b2b0b4;
+    position: absolute;
+    left: 0;
+}
+
+.skills-section {
+    margin-top: 1.5rem;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.skill-tag {
+    background: #d7d7d7;
+    color: #1d1c1c;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-title-group {
+    flex-grow: 1;
+}
+
+.project-timeline {
+    font-size: 0.9rem;
+    color: #6019d2;
+    background: #efe3fd;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .project-card {
+        padding: 1.5rem;
+    }
+
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
 }

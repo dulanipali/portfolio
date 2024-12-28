@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Dulani Palihapitiya's Portfolio</title>
+
+    <title>Dulani Palihapitiya</title>
 
     <meta name="description" content="Portfolio of Dulani Palihapitiya.">
     <meta name="author" content="Dulani Palihapitiya">
@@ -12,12 +13,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -27,6 +30,7 @@
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="files/Resume.pdf" target="_blank"> Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,29 +42,121 @@
         <script src="app.js"></script>
         <div class="container">
             <h1 class="display-4">Dulani Palihapitiya</h1>
-            <p class="lead">I'm a Computer Science student at Texas Tech University who's passionate about technology and dedicated to lifelong learning. With hands-on experience in web development, I plan to become a skilled Software Engineer and contribute to innovative projects.</p>
+            <p class="lead">I'm a Computer Science student at Texas Tech University who's passionate about technology
+                and dedicated to lifelong learning. With hands-on experience in web development, I plan to become a
+                skilled Software Engineer and contribute to innovative projects.</p>
             <p>
-                <a href="https://www.linkedin.com/in/dulani-palihapitiya" target="_blank" class="btn btn-primary btn-lg">
-                    <i class="fab fa-linkedin"></i> 
+                <a href="https://www.linkedin.com/in/dulani-palihapitiya" target="_blank"
+                    class="btn btn-primary btn-lg">
+                    <i class="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/dulanipali" target="_blank" class="btn btn-dark btn-lg">
-                    <i class="fab fa-github"></i> 
+                    <i class="fab fa-github"></i>
                 </a>
             </p>
-        </div> 
+        </div>
     </section>
 
     <section id="projects" class="py-5">
         <div class="container">
             <h2>Projects</h2>
             <div class="row ">
-                <div class="col-md-12"> <!--d-flex-->
+                <!-- Campus Navigation System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title-group">
+                            <h3 class="project-title">Campus Navigation System</h3>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>A user-friendly navigation system specifically designed for TTU campus, helping students
+                            locate
+                            essential services and navigate efficiently.</p>
+                    </div>
+                    <div class="key-features">
+                        <h5>Key Features</h5>
+                        <ul>
+                            <li>Interactive Campus Map with multiple views</li>
+                            <li>Service Locator with detailed information</li>
+                            <li>Categorized Service Directory</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/dulanipali/RaiderNav" target="_blank" class="btn btn-dark">View on
+                        GitHub</a>
+
+                    <a href="https://dulanipali.github.io/RaiderNav/" target="_blank" class="btn btn-dark">View Demo</a>
+                    <div class="skills-section">
+                        <div class="skills-grid">
+                            <span class="skill-tag">Mapbox API</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Geolocation</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Location Services</span>
+                            <span class="skill-tag">Maps Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Application Tracker App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title-group">
+                            <h3 class="project-title">Job Application Tracker</h3>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Worked in a team to develop a comprehensive platform designed to help job applicants to
+                            manage their job applications,
+                            track
+                            progress, and prepare for interviews effectively.</p>
+                    </div>
+                    <div class="key-features">
+                        <h5>Key Features</h5>
+                        <ul>
+                            <li>Application Dashboard with status tracking</li>
+                            <li>Deadline Reminder System with a calendar view</li>
+                            <li>Tracking application documents</li>
+                            <li>AI generated resume and interview tips</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/dulanipali/pathwaypro" target="_blank" class="btn btn-dark">View on
+                        GitHub</a>
+
+                    <a href="https://pathwaypro.vercel.app/" target="_blank" class="btn btn-dark">View Demo</a>
+
+                    <div class="skills-section">
+                        <div class="skills-grid">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">User Authentication with Clerk</span>
+                            <span class="skill-tag">OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card"> <!--d-flex-->
                     <!--<div class="row">
                         <div class="col-md-7">
                         -->
-                            <h3>Align With Me</h3>
-                            <p>Worked as a FrontEnd Developer to contribute to the AlignWithMe open source repository. The platform provides users with a quiz that helps them determine their political alignment respective to candidates. Enhancements include fixing overflow errors, implementing robust form validation, and optimizing the interface for mobile viewing. Leveraged technologies such as Flutter and Spring Boot to streamline backend processes and improve performance.</p>
-                            <a href="https://github.com/AlignWithMeAdmin/alignwithme" target="_blank" class="btn btn-dark">View on GitHub</a>
+                    <h3 class="project-title">Align With Me</h3>
+                    <p>Worked as a FrontEnd Developer to contribute to the AlignWithMe open source repository. The
+                        platform provides users with a quiz that helps them determine their political alignment
+                        respective to candidates. Enhancements include fixing overflow errors, implementing robust form
+                        validation, and optimizing the interface for mobile viewing. Leveraged technologies such as
+                        Flutter and Spring Boot to streamline backend processes and improve performance.</p>
+
+                    <a href="https://github.com/AlignWithMeAdmin/alignwithme" target="_blank" class="btn btn-dark">View
+                        on GitHub</a>
+                    <div class="skills-section">
+                        <div class="skills-grid">
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">REST API</span>
+                            <span class="skill-tag">CRUD</span>
+                            <span class="skill-tag">Web Development</span>
+                        </div>
+                    </div>
                     <!--</div>
                         
                         <div class="col-md-5">
@@ -69,22 +165,30 @@
                     
                     </div>-->
                 </div>
-                <div class="col-md-12">
-                    <h3>Concrete Strength Prediction Model</h3>
-                    <p>Python-based application that estimates the concrete strength based on user inputs. Users can enter parameters like cement, water, and aggregate types to receive precise strength predictions along with uncertainty assessments. With Use of Pandas, Numpy, Matplotlib, utilized Multiple Linear Regression, Exponential Regression, and Polynomial Regression models to analyze data from a concrete compressive strength database.</p>
-                    <a href="https://github.com/dulanipali/Concrete-Strength-Prediction-Model" target="_blank" class="btn btn-dark">View on GitHub</a>
+                <div class="project-card">
+                    <h3 class="project-title">Concrete Strength Prediction Model</h3>
+                    <p>Python-based application that estimates the concrete strength based on user inputs. Users can
+                        enter parameters like cement, water, and aggregate types to receive precise strength predictions
+                        along with uncertainty assessments. With Use of Pandas, Numpy, Matplotlib, utilized Multiple
+                        Linear Regression, Exponential Regression, and Polynomial Regression models to analyze data from
+                        a concrete compressive strength database.</p>
+                    <a href="https://github.com/dulanipali/Concrete-Strength-Prediction-Model" target="_blank"
+                        class="btn btn-dark">View on GitHub</a>
                 </div>
-                <div class="col-md-12">
-                    <h3>GUI for Information Delivery Robot</h3>
-                    <p>An Information Delivery Robot for Texas Tech that could serve as an informative device on location information and general questions. Designed the GUI and programmed the robot’s Raspberry Pi using Python to give weather information using a weather API.</p>
-                    <a href="https://github.com/dulanipali/Information-Delivery-Robot-GUI-" target="_blank" class="btn btn-dark">View on GitHub</a>
+                <div class="project-card">
+                    <h3 class="project-title">GUI for Information Delivery Robot</h3>
+                    <p>An Information Delivery Robot for Texas Tech that could serve as an informative device on
+                        location information and general questions. Designed the GUI and programmed the robot’s
+                        Raspberry Pi using Python to give weather information using a weather API.</p>
+                    <a href="https://github.com/dulanipali/Information-Delivery-Robot-GUI-" target="_blank"
+                        class="btn btn-dark">View on GitHub</a>
                 </div>
                 <!-- Add more projects as needed -->
             </div>
         </div>
     </section>
 
-     <section id="skills" class="py-5">
+    <section id="skills" class="py-5">
         <div class="container">
             <h2>Skills</h2>
             <div class="row">
@@ -119,7 +223,7 @@
                 <div class="col-3 col-md-3 text-center">
                     <img src="assets/spring.png" alt="Spring Boot" class="img-fluid">
                     <p>Spring Boot</p>
-                </div>            
+                </div>
                 <div class="col-3 col-md-3 text-center">
                     <img src="assets/git.png" alt="Git" class="img-fluid">
                     <p>Git</p>
@@ -147,9 +251,12 @@
                         <h3>IT Support Assistant</h3>
                         <p>Texas Tech University</p>
                         <p>May 2024 - Present</p>
-                        <p>Successfully diagnosed and resolved various technical issues, enhancing overall operational efficiency.<br>
-                        Gained hands-on experience with system reimaging, computer setup, and network troubleshooting.<br>
-                        Delivered exceptional support and training to end-users, improving their technical proficiency and satisfaction.</p>
+                        <p>Successfully diagnosed and resolved various technical issues, enhancing overall operational
+                            efficiency.<br>
+                            Gained hands-on experience with system reimaging, computer setup, and network
+                            troubleshooting.<br>
+                            Delivered exceptional support and training to end-users, improving their technical
+                            proficiency and satisfaction.</p>
                     </div>
                 </div>
                 <!---
@@ -194,6 +301,11 @@
             </form>
             -->
         </div>
+        <div class="container text-center">
+            <a href="files/Resume.pdf" target="_blank" class="btn btn-primary btn-lg btn-dark">
+                Download Resume
+            </a>
+        </div>
     </section>
 
     <footer class="bg-dark text-white text-center py-3">
@@ -204,4 +316,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
