@@ -228,14 +228,16 @@ nav {
 }
 
 .project-card {
-    width: 60%;
-    min-width: 600px;
-    text-align: justify;
+    /* width: 60%; */
+    /* mac-width: 600px; */
+    text-align: left;
     padding-top: 10px;
     background: #f4f4f4;
     border-radius: 3%;
     padding: 2rem;
     margin-bottom: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
     transition: transform 0.3s ease;
     border: 1px solid #e9ecef;
 }
@@ -335,6 +337,8 @@ h2 {
 
     .project-card {
         padding: 1.5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 
     .project-header {
